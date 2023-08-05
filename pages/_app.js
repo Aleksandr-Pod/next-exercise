@@ -1,6 +1,6 @@
 
 import LayoutMain from '../components/layout';
-import '../styles/globals.scss';
+import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }) => (
   <LayoutMain>
