@@ -1,4 +1,4 @@
-import { Section, List } from "./header.styled";
+import { Section, NavButton, List } from "./header.styled";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
