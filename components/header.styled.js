@@ -12,7 +12,7 @@ export const Section = styled.header`
     color: yellow;
     align-items: center;
 `
-export const NavButton = styled.a`
+export const NavButton = styled(Link)`
     padding: 5px 10px;
     margin-left: 10px; 
     text-align: center;

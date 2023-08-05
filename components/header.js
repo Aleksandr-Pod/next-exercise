@@ -11,9 +11,9 @@ const Header = () => {
       <Link href='/' >Logo</Link>
       <nav>
         <ul>
-          <Link href='/infoPage'>Info page</Link>
-          <Link href='/details1'>Details - 1</Link>
-          <Link href='/details2'>Details - 2</Link>
+          <NavButton href='/infoPage'>Info page</NavButton>
+          <NavButton href='/details1'>Details - 1</NavButton>
+          <NavButton href='/details2'>Details - 2</NavButton>
         </ul>
       </nav>
     </Section>
