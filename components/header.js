@@ -1,4 +1,4 @@
-import { Section, NavButton, List } from "./header.styled";
+import { Section, NavButton } from "./header.styled";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -10,11 +10,11 @@ const Header = () => {
     <Section>
       <Link href='/' >Logo</Link>
       <nav>
-        <List>
+        <ul>
           <Link href='/infoPage'>Info page</Link>
           <Link href='/details1'>Details - 1</Link>
           <Link href='/details2'>Details - 2</Link>
-        </List>
+        </ul>
       </nav>
     </Section>
   )
