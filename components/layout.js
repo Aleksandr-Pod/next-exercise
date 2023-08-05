@@ -1,11 +1,14 @@
 import Header from "./header";
 import Footer from "./footer";
+import StyledComponentsRegistry from '../lib/registry';
 
 const LayoutMain = ({children}) => (
-	<>
-		<Header/>
+	<StyledComponentsRegistry>
+		<>
+			<Header/>
 			{children}
-		<Footer/>
-	</>
+			<Footer />
+		</>
+	</StyledComponentsRegistry>
 )
 export default LayoutMain;

@@ -4,7 +4,7 @@ import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }) => (
   <LayoutMain>
-    <Component {...pageProps} />
+      <Component {...pageProps} />
   </LayoutMain>
 )
 
