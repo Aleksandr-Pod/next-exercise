@@ -1,16 +1,17 @@
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
+import { List } from "../../styles/orders.styled";
 
 const Orders = () => {
-  const { pathname, route } = useRouter();
+  // const { pathname, route } = useRouter();
 
-  console.log("pathname:", pathname);
-  console.log("route:", route);
+  // console.log("pathname:", pathname);
+  // console.log("route:", route);
   return (
-    <ul>
+    <List>
       <li>Order-1</li>
       <li>Order-2</li>
       <li>Order-3</li>
-    </ul>
+    </List>
   )
 }
 export default Orders;
